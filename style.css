@@ -1,0 +1,82 @@
+body {
+    background-color: powderblue;
+    margin: 0px;
+}
+
+.topBar {
+    background-color: rgb(10, 110, 150);
+    width: 100% ;
+    height: 100px ;
+}
+
+h1 {
+    
+    position: relative;
+    top: 35px;
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: "Palatino";
+}
+
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(25, 40, 75); /* Green */
+    color: white;
+}
+
+.puz3Buttons {
+    
+    position: relative;
+    top: 40px;
+    width: 18%;
+    left: 5%;
+}
+.hintButtons {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 300px;
+}
+.infoText {
+    position: relative;
+    text-align: center;
+
+}
+
+
+/*
+Colors for Invisible Text Puzzle
+*/
+#hiddenLink {
+    position: relative;
+    left: 80%;
+    border: none;
+    color: rgb(10, 110, 150);
+    background-color:transparent;
+    background-repeat:no-repeat;
+    z-index: 999;
+}
+
+#fakeLink {  
+    position: relative;
+    top: 80px;
+    left: 20px;
+    color: powderblue;
+}
+#endButton{
+    position: relative;
+    width: 15%;
+    left: 42.5%;
+}
+#startButton{
+    position: relative;
+    width: 10%;
+    left: 45%;
+}
